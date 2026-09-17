@@ -1,5 +1,6 @@
-"""Database model for authenticated user sessions."""
+"""Database model for authenticated user devices."""
 
+# pylint: disable=too-few-public-methods,duplicate-code,duplicate-code
 import uuid
 from datetime import datetime
 

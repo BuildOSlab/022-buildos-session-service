@@ -1,13 +1,10 @@
 """SQLAlchemy declarative base and model metadata."""
+# pylint: disable=too-few-public-methods
 
+# SQLAlchemy imports
 from sqlalchemy.orm import DeclarativeBase
 
 
+# Database model base
 class Base(DeclarativeBase):
     """Base class for all SQLAlchemy models."""
-
-
-from app.models.device import UserDevice
-from app.models.session import UserSession
-
-__all__ = ["Base", "UserDevice", "UserSession"]
